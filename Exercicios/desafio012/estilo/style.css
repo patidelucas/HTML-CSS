@@ -60,6 +60,7 @@ section {
 
 section > p {
 	padding-bottom: 2em;
+	white-space: pre;
 }
 
 section.normal {
@@ -72,6 +73,7 @@ section.imagem {
 	color: whitesmoke;
 	box-shadow: 5px 5px 15px 0px black;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 section.imagem > p {
@@ -79,7 +81,7 @@ section.imagem > p {
 	display: inline-block;
 	padding: 10px;
 	text-shadow: 1px 1px 0px black;
-	background-size: cover;
+
 }
 
 section#img01 {
